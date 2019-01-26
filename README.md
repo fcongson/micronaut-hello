@@ -1,6 +1,12 @@
 # micronaut-hello
 
-A Micronaut App written in Kotlin.
+A [Micronaut](http://micronaut.io) App written in Kotlin.
+
+## Create App
+
+```sh
+mn create-app micronaut-hello -l kotlin
+```
 
 ## Run
  
@@ -15,7 +21,7 @@ A Micronaut App written in Kotlin.
 open build/reports/tests/test/index.html
 ```
 
-## Build Docker Image
+## Build JAR and Docker Image
 
 ```sh
 ./gradlew shadowJar
@@ -27,3 +33,7 @@ docker build -t micronaut-hello .
 ```sh
 docker run -p 8080:8080 micronaut-hello
 ```
+
+## Reference
+
+Creating your first Micronaut Kotlin app - http://guides.micronaut.io/creating-your-first-micronaut-app-kotlin/guide/index.html
