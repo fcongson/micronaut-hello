@@ -8,6 +8,13 @@ A Micronaut App written in Kotlin.
 ./gradlew run
 ```
 
+## Run Tests and View Results
+
+```sh
+./gradlew test
+open build/reports/tests/test/index.html
+```
+
 ## Build Docker Image
 
 ```sh
