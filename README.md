@@ -37,3 +37,7 @@ docker run -p 8080:8080 micronaut-hello
 ## Reference
 
 Creating your first Micronaut Kotlin app - http://guides.micronaut.io/creating-your-first-micronaut-app-kotlin/guide/index.html
+
+Deploying a containerized web application - https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
+
+Google Cloud Platform I: Deploy a Docker App To Google Container Engine with Kubernetes - https://scotch.io/tutorials/google-cloud-platform-i-deploy-a-docker-app-to-google-container-engine-with-kubernetes
